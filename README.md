@@ -18,7 +18,9 @@ To create a new Laravel project, ensure src/ is empty, then:
 To set permissions for Laravel storage:
 
 `docker-compose run --rm php chmod -R g+w /var/www/html/storage /var/www/html/bootstrap/cache
+
 docker-compose run --rm php chmod -R g+s /var/www/html/storage /var/www/html/bootstrap/cache
+
 docker-compose run --rm php chgrp www-data -R  /var/www/html/storage /var/www/html/bootstrap/cache`
 
 To get an interactive terminal to the PHP instance:
