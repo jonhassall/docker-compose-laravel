@@ -11,6 +11,12 @@ To start:
 
 `docker-compose up`
 
+Web server available at `http://localhost`
+
+Port number can be changed in docker-compose
+
+Two database admin tools available, at `http://localhost:8081` and `http://localhost:8082`
+
 To create a new Laravel project, ensure src/ is empty, then:
 
 `docker-compose run --rm php composer create-project --prefer-dist laravel/laravel .`
