@@ -34,3 +34,4 @@ MySQL storage is persistent and stored in the mysql/ directory
 
 Nginx config can be edited in nginx/default.conf
 
+Credit to [https://github.com/aschmelyun/docker-compose-laravel](https://github.com/aschmelyun/docker-compose-laravel) for a great starting point.
