@@ -1,1 +1,1 @@
-Place your project here
+Place your project in the public directory
